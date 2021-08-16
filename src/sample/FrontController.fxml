@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" prefHeight="520.0" prefWidth="503.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FrontController">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="5.0" prefHeight="508.0" prefWidth="490.0" style="-fx-background-color: linear-gradient(to right, #093028, #237a57);">
+         <children>
+            <ImageView fitHeight="568.0" fitWidth="495.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/Untitled-2.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="exitBtn" layoutX="453.0" layoutY="7.0" mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="30.0" style="-fx-background-color: #b71c1c; -fx-background-radius: 50%; -fx-background-radius: 80;" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="21.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/icons8-multiply-30.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="loginBtn" layoutX="346.0" layoutY="431.0" mnemonicParsing="false" onAction="#join" prefHeight="44.0" prefWidth="128.0" style="-fx-background-radius: 80;">
+               <font>
+                  <Font name="Bodoni MT" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="132.0" fitWidth="146.0" layoutX="17.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logo-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="17.0" layoutY="226.0" prefHeight="150.0" prefWidth="434.0" text="JANAJAYA FARMER'S">
+               <font>
+                  <Font name="Constantia Bold" size="37.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="301.0" prefHeight="72.0" prefWidth="293.0" text="ASSOSIATION">
+               <font>
+                  <Font name="Constantia Bold" size="38.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="44.0" fitWidth="48.0" layoutX="388.0" layoutY="431.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/icons8-arrow-30.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
